@@ -179,3 +179,40 @@ footer p{
   color: #fff;
   padding: 20px 0;
 }
+
+@media screen and (max-width: 750px){
+  body{
+    overflow-x: hidden;
+  }
+  /* header */
+  nav{
+    display: none;
+  }
+
+  /* mainvisual */
+  .mainvisual h2{
+    line-height: normal;
+    font-size: 30px;
+  }
+
+  /* works */
+  .works-card-wrapper{
+    display: block;
+    justify-content: space-around;
+  }
+
+  .works-card{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* access */
+  iframe{
+    width: 100%;
+  }
+
+  /* contact */
+  input, textarea{
+    width: 100%;
+  }
+}
